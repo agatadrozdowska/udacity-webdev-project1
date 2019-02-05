@@ -1,0 +1,194 @@
+body {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    margin-top: 50px;
+    color: #2d3c49;
+    border-bottom: #7d97ad solid 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 100%;
+}
+
+#logo {
+    height: 80px;
+    width: 80px;
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: end;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+
+.title h2 {
+    margin-top: 10px;
+}
+
+#code-image {
+    width: 100%;
+    height: 380px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project img {
+    width: 370px;
+    height: 220px;
+}
+
+.portfolio {
+    margin-bottom: 50px;
+}
+
+.portfolio h2 {
+    color: #7d97ad;
+    font-size: 2.2em;
+    margin-bottom: 12px;
+}
+
+span {
+    text-transform: uppercase;
+    color: #2d3c49;
+    font-size: 2.2em;
+    font-weight: bolder;
+    margin-top: 4%;
+}
+
+.address {
+    margin-top: 5px;
+    color: #2d3c49;
+    font-size: 1em;
+}
+
+footer {
+    border-top: #7d97ad solid 4px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.contact {
+    width: 50%;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.icons img {
+    height: 40px;
+    width: 40px;
+    padding-left: 5px;
+}
+
+.contact p {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #2d3c49;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 576px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .title h2 {
+        font-size: 1em;
+    }
+
+    #logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    #code-image {
+        height: 300px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio {
+        margin-bottom: 0;
+    }
+
+    .project {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    section h2 {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    span {
+        font-size: 1.5em;
+    }
+
+    .address {
+      font-size: 0.8em;
+    }
+
+    .contact {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 950px) {
+
+    .portfolio h2 {
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .project {
+        width: 45%;
+    }
+
+    span {
+        font-size: 1.5em;
+    }
+
+    .address {
+        font-size: 0.9em;
+    }
+}
+
+
